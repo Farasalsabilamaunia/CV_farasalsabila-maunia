@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV FARASALSABILA MAUNIA</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <button class="sidebar-toggle" id="toggleBtn">&#8942;</button>
+
+    <div class="resume-wrapper">
+      <aside class="sidebar" id="sidebar">
+        <div class="profile-frame">
+          <img src="./foto.jpeg" alt="FARASALSABILA MAUNIA" class="profile-img" />
+        </div>
+
+        <section class="sidebar-info">
+          <h2 class="sidebar-title">Kontak</h2>
+          <ul class="contact-list">
+            <li><span class="icon">✉</span> farasalsabilamaunia@gmail.com</li>
+            <li><span class="icon">✆</span> +62 852 2231 6145</li>
+            <li><span class="icon">📍</span> Banda Aceh, Indonesia</li>
+            <li><span class="icon">🔗</span> github.com</li>
+          </ul>
+        </section>
+
+        <section class="sidebar-info">
+          <h2 class="sidebar-title">Keahlian Utama</h2>
+          <div class="skill-group">
+            <p>Web Development (PHP/HTML)</p>
+            <div class="progress-bar">
+              <div class="progress" style="width: 90%"></div>
+            </div>
+
+            <p>UI/UX Design</p>
+            <div class="progress-bar">
+              <div class="progress" style="width: 85%"></div>
+            </div>
+
+            <p>Database Management</p>
+            <div class="progress-bar">
+              <div class="progress" style="width: 80%"></div>
+            </div>
+          </div>
+        </section>
+      </aside>
+
+      <main class="main-body">
+        <header class="hero">
+          <h2 class="name">FARASALSABILA MAUNIA</h2>
+          <p class="job-title">Web Developer</p>
+          <div class="summary">
+            <p>
+              Mahasiswa Teknologi Informasi di Universitas Islam Negeri
+              Ar-Raniry yang memiliki motivasi tinggi dalam pengembangan
+              perangkat lunak, desain, dan manajemen. Memiliki kemampuan
+              analisis yang baik, disiplin, dan terbiasa bekerja dalam tim
+              melalui berbagai proyek organisasi dan akademik.
+            </p>
+          </div>
+        </header>
+
+        <section class="experience-section">
+          <h2 class="section-title">Pendidikan</h2>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="item-header">
+                <h3>Teknik Informatika</h3>
+                <span class="date">2023 — Sekarang</span>
+              </div>
+              <p class="institution">Universitas Islam Negeri Ar-Raniry</p>
+              <ul class="details">
+                <li>Fokus pada Pengembangan Perangkat Lunak.</li>
+                <li>
+                  Mengembangkan sistem penilaian otomatis menggunakan algoritma
+                  PHP.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="experience-section">
+          <h2 class="section-title">Proyek Unggulan</h2>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="item-header">
+                <h3>Smart Grading System</h3>
+                <span class="date">2025</span>
+              </div>
+              <p class="institution">Project Independent</p>
+              <ul class="details">
+                <li>UI/UX aplikasi interaktif dan mudah digunakan.</li>
+                <li>Sistem pengolahan data nilai mahasiswa yang efisien.</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script>
+      const toggleBtn = document.getElementById("toggleBtn");
+      const sidebar = document.getElementById("sidebar");
+
+      toggleBtn.addEventListener("click", () => {
+        sidebar.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
